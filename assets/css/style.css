@@ -26,11 +26,12 @@ body {
     color: #576971 !important;
 }
 .navbar-nav {
-    margin-left: 495px;
+    margin-left: 464px;
 }
 .nav-item {
     padding: 0px 13px;
 }
+
 .nav-link {
     color: #7b909a ;
 }
@@ -63,6 +64,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right top;
+    margin-top: 5rem;
 }
 .hero-sec-img img {
     max-width: 70%;
@@ -91,10 +93,10 @@ body {
 .hero-sec-title div a:hover {
     background: #008bd1;
 }
-.header-link  {
-        position: absolute;
-        top: 22px;
-        right: 139px;
+.header-link{
+    position: absolute;
+    right: 112px;
+    top: 24px;
 }
 .header-link a {
     padding: 3px;
@@ -102,6 +104,9 @@ body {
 }
 .header-link a :hover {
     color: #008bd1;
+}
+.container-fluid h1{
+    margin-left: 154px;
 }
 /* about section css */
 .about {
@@ -837,7 +842,8 @@ body {
     }
     .header-link {
         position: absolute;
-        right: 104px;
+        right: 87px;
+        top: 21px;
     }
     .hero{
         overflow: hidden;
@@ -902,22 +908,28 @@ body {
     .navbar-nav {
         margin-left: 0px;
     }
-    .header-link  {
-        position: absolute;
-        top: 16px;
-        font-size: 18px;
-    }
-        
     .hero{
         overflow: hidden;
         margin-top: 0px;
         padding: 22px;
     }
+    .container-fluid h1 {
+        margin-left: 0px;
+    }
+    .header-link{
+        position: absolute;
+        right: 77px;
+        top: 14px;
+    }
+    .navbar-toggler {
+        font-size: 14px;
+    }
     .hero-sec-row{
         flex-direction: column-reverse;
     }
     .hero-sec-img img {
-        margin: 36px 61px;
+        margin: 34px 20px;
+        max-width: 80%;
     }
     .hero-sec-title div {
         margin: 0px 0px;
@@ -992,8 +1004,6 @@ body {
     .box ul {
         padding-left: 0rem !important; 
     }
-    
-    
     .faq  {
         margin-top: 0rem !important;
     }
