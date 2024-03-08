@@ -92,7 +92,9 @@ body {
     background: #008bd1;
 }
 .header-link  {
-    display: flex;
+        position: absolute;
+        top: 22px;
+        right: 139px;
 }
 .header-link a {
     padding: 3px;
@@ -835,7 +837,7 @@ body {
     }
     .header-link {
         position: absolute;
-        right: 81px;
+        right: 104px;
     }
     .hero{
         overflow: hidden;
@@ -900,10 +902,12 @@ body {
     .navbar-nav {
         margin-left: 0px;
     }
-    .header-link {
+    .header-link  {
         position: absolute;
-        right: 81px;
+        top: 16px;
+        font-size: 18px;
     }
+        
     .hero{
         overflow: hidden;
         margin-top: 0px;
